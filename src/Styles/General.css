@@ -1,0 +1,89 @@
+/* @media screen and (min-width: 992px) { */
+    .general {
+        padding: 0 10%;
+        height: 550px;
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        cursor: pointer;
+    }
+    .navBar {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navBar .name {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+        margin: 0;
+    }
+    .navBar .nav {
+        width: 45%;
+    }
+    .navBar .nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .navBar li{
+        list-style: none;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        color: #000000;
+    }
+    .navBar li:hover{
+        color: #2351DC;
+    }
+    .generalOthers {
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .image {
+        width: 30%;
+        border-radius: 50%;
+    }
+    .generalDetails {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 10px;
+        align-items: flex-start;
+    }
+    .generalDetails h2 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 18px;
+        color: #2351DC;
+        margin: 0;
+    }
+    .generalDetails h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #2351DC;
+        margin: 0;
+    }
+    .generalDetails h4 {
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 48px;
+        margin: 0;
+        color: #000000;
+    }
+    .generalDetailsLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+/* } */

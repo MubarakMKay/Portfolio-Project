@@ -1,0 +1,41 @@
+/* @media screen and (min-width: 992px) { */
+    .details {
+        height: 400px;
+        background: #F6F8FE;
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+    }
+    .detailsProper {
+        height: 200px;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .detailsProper h1 {
+        font-weight: 700;
+        font-size: xx-large;
+        line-height: 48px;
+        text-align: center;
+        margin: 0;
+    }
+    .detailsProper span {
+        font-weight: 500;
+        font-size: small;
+        line-height: 18px;
+        color: #4D4D4D;
+        text-align: center;
+    }
+    .detailsLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100px;
+    }
+/* } */

@@ -1,0 +1,161 @@
+/* @media screen and (min-width: 992px) { */
+    .contact {
+        height: 500px;
+        /* box-sizing: border-box; */
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contactDetails {
+        padding-left: 10%;
+        width: 65%;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .contactDetails > div:nth-of-type(1) {
+        /* height: 200px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 10px;
+        align-items: flex-start;
+    }
+    .contactDetails:nth-child(1) h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        margin: 0;
+    }
+    .contactDetails:nth-child(1) span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .socials {
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .socials span {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .contactDetails > div:nth-of-type(2) {
+        height: 85px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .contacts {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        column-gap: 16px;
+        align-items: center;
+    }
+    .contactsDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .contactsDetails span:nth-of-type(1) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .contactsDetails span:nth-of-type(2) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #737373;
+    }
+    .contactMessage {
+        height: 500px;
+        padding-right: 10%;
+        padding-left: 5%;
+        width: 30%;
+        background-color: #1C41B0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contactMessage > div {
+        /* height: 300px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 40px;
+        align-items: flex-start;
+    }
+    .contactMessageText h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.7);
+        margin: 0;
+    }
+    .contactMessageText h3 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .contactMessageInputs {
+        width: 100%;
+        /* height: 200px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 30px;
+        align-items: flex-start;
+    }
+    .contactMessageInputs input {
+        width: 100%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        border: 0;
+        border-bottom: 1px solid #FFF;
+        background-color: #1C41B0;
+        color: #FFFFFF;
+    }
+    .contactMessageInputs input::-webkit-input-placeholder {
+        color:#FFFFFF;
+    }
+    .contactMessageInputs input::-moz-placeholder {
+        color:#FFFFFF;
+    }
+    .contactMessageInputs input::-ms-placeholder {
+        color:#FFFFFF;
+    }
+    .contactMessageInputs input::placeholder {
+        color:#FFFFFF;
+    }
+    .contactMessageButton {
+        width: 203px;
+        height: 55px;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #2351DC;
+    }
+/* } */

@@ -1,0 +1,48 @@
+/* @media screen and (min-width: 992px) { */
+    .projects {
+        padding: 80px 10%;
+        box-sizing: border-box;
+        background: #F6F8FE;
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 30px;
+        align-items: flex-start;
+        cursor: pointer;
+    }
+    .projects h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        margin: 0;
+        color: #2351DC;
+    }
+    .project {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .projectExactly {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .projectTitle {
+        margin-top: 0;
+        color: #2351DC;
+    }
+    .projectExactly h4 {
+        color: #2351DC;    
+    }
+    .projectLinks {
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+/* } */
