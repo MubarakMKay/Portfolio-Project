@@ -2,7 +2,7 @@
     .projects {
         padding: 80px 10%;
         box-sizing: border-box;
-        background: #F6F8FE;
+        background-color: #D3DCF8;
         font-family:'Courier New', Courier, monospace;
         font-style: normal;
         display: flex;
@@ -17,7 +17,6 @@
         font-size: 48px;
         line-height: 48px;
         margin: 0;
-        color: #2351DC;
     }
     .project {
         display: flex;
@@ -27,17 +26,15 @@
     }
     .projectExactly {
         width: 45%;
+        padding: 4px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        box-shadow: 0 8px 8px -4px #000;
     }
     .projectTitle {
         margin-top: 0;
-        color: #2351DC;
-    }
-    .projectExactly h4 {
-        color: #2351DC;    
     }
     .projectLinks {
         width: 150px;

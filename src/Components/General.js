@@ -11,7 +11,6 @@ const General = () => {
                 <nav className="nav">
                     <ul>
                         <li>About Me</li>
-                        <li>Services</li>
                         <li>Projects</li>
                         <li>Contact Me</li>
                     </ul>

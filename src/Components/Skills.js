@@ -1,4 +1,5 @@
 import '../Styles/Skills.css'
+import ProgressBar from "@ramonak/react-progress-bar";
 import ReactJs from '../Images/react.svg'
 import Js from '../Images/Js.png'
 import CSS from '../Images/css3.svg'
@@ -19,7 +20,14 @@ const Skills = () => {
                         </div>
                         <div className="skillDetails">
                             <span>ReactJs</span>
-                            <input type="range" name="ReactJs" id="" min={0} max={100} value={75} />
+                            <ProgressBar 
+                                completed={80} 
+                                className='progress'
+                                customLabel=''
+                                barContainerClassName="progressContainer"
+                                completedClassName="progressCompletedR"
+                                labelClassName="progressLabel"
+                            />
                         </div>
                     </div>
                     <div className="skill">
@@ -28,7 +36,14 @@ const Skills = () => {
                         </div>
                         <div className="skillDetails">
                             <span>Javascript</span>
-                            <input type="range" name="Javascript" id="" min={0} max={100} value={80} />
+                            <ProgressBar 
+                                completed={85} 
+                                className='progress'
+                                customLabel=''
+                                barContainerClassName="progressContainer"
+                                completedClassName="progressCompletedJ"
+                                labelClassName="progressLabel"
+                            />
                         </div>
                     </div>
                     <div className="skill">
@@ -37,7 +52,14 @@ const Skills = () => {
                         </div>
                         <div className="skillDetails">
                             <span>Cascading Style Sheets(CSS)</span>
-                            <input type="range" name="CSS" id="" min={0} max={100} value={90} />
+                            <ProgressBar 
+                                completed={90} 
+                                className='progress'
+                                customLabel=''
+                                barContainerClassName="progressContainer"
+                                completedClassName="progressCompletedC"
+                                labelClassName="progressLabel"
+                            />
                         </div>
                     </div>
                     <div className="skill">
@@ -46,7 +68,16 @@ const Skills = () => {
                         </div>
                         <div className="skillDetails">
                             <span>Hypertext Markup Language(HTML)</span>
-                            <input type="range" name="HTML" id="" min={0} max={100} value={90} />
+                            <ProgressBar 
+                                completed={90} 
+                                className='progress'
+                                customLabel=''
+                                barContainerClassName="progressContainer"
+                                completedClassName="progressCompletedH"
+                                labelClassName="progressLabel"
+                                isLabelVisible={false}
+                                labelAlignment='left'
+                            />
                         </div>
                     </div>
                 </div>

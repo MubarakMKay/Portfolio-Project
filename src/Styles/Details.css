@@ -1,7 +1,6 @@
 /* @media screen and (min-width: 992px) { */
     .details {
-        height: 400px;
-        background: #F6F8FE;
+        background-color: #D3DCF8;
         font-family:'Courier New', Courier, monospace;
         font-style: normal;
         display: flex;
@@ -13,6 +12,7 @@
     .detailsProper {
         height: 200px;
         width: 35%;
+        padding: 60px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
