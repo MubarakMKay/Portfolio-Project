@@ -1,9 +1,9 @@
 import '../Styles/Skills.css'
 import ProgressBar from "@ramonak/react-progress-bar";
-import ReactJs from '../Images/react.svg'
-import Js from '../Images/Js.png'
-import CSS from '../Images/css3.svg'
-import HTML from '../Images/HTML.png'
+import { DiReact } from "react-icons/di"
+import { DiJavascript1 } from "react-icons/di"
+import { DiCss3 } from "react-icons/di"
+import { DiHtml5 } from "react-icons/di"
 
 const Skills = () => {
     return ( 
@@ -16,7 +16,7 @@ const Skills = () => {
                 <div className="skillsActual">
                     <div className="skill">
                         <div className="skillImage">
-                            <img src={ReactJs} alt="ReactJs" />
+                            <DiReact />
                         </div>
                         <div className="skillDetails">
                             <span>ReactJs</span>
@@ -32,7 +32,7 @@ const Skills = () => {
                     </div>
                     <div className="skill">
                         <div className="skillImage">
-                            <img src={Js} alt="Js" />
+                            <DiJavascript1 />
                         </div>
                         <div className="skillDetails">
                             <span>Javascript</span>
@@ -48,7 +48,7 @@ const Skills = () => {
                     </div>
                     <div className="skill">
                         <div className="skillImage">
-                            <img src={CSS} alt="CSS" />
+                            <DiCss3 />
                         </div>
                         <div className="skillDetails">
                             <span>Cascading Style Sheets(CSS)</span>
@@ -64,7 +64,7 @@ const Skills = () => {
                     </div>
                     <div className="skill">
                         <div className="skillImage">
-                            <img src={HTML} alt="HTML" />
+                            <DiHtml5 />
                         </div>
                         <div className="skillDetails">
                             <span>Hypertext Markup Language(HTML)</span>
